@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graphl api for the booking hotel",
+  "main": "server.js",
+  "author": "Socialoop Ltd.",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "bcrypt": "^5.0.0",
+    "esm": "^3.2.25",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.29",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {}
+}
