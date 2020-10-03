@@ -14,7 +14,6 @@ const app = new ApolloServer({
   engine: {
     reportSchema: true,
     variant: "current",
-    
   },
 });
 
